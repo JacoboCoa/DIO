@@ -14,4 +14,7 @@ fun main(){
     )
 
     map2.forEach{(k,v)-> println("Chave: $k - Valor: $v")}
+
+    val abc: Pair<String, Double>
+
 }
