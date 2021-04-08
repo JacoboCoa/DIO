@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="IMC"
+        android:textStyle="bold"
+        android:textSize="64sp" />
+
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:hint="@string/input_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/inputStyle" />
+
+    <EditText
+        android:id="@+id/alturaEDT"
+        android:hint="@string/input_altura"
+        style="@style/inputStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/calculateBTN"
+        android:text="@string/calculate"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
